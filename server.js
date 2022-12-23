@@ -20,13 +20,3 @@ const PORT= 5002
 server.listen(PORT, () => {
     console.log(`Servidor escuchando ${PORT}`)
 })
-
-// module-name.js
-module.exports = {
-/* ... */
-}
-
-// index.js
-const module = require("./module-name.js");
-
-module.method();
